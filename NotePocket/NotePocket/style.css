@@ -1,0 +1,70 @@
+html, * {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 70%;
+}
+
+body {
+  font: 1.8rem/1.56 sans-serif;
+  color: #360066;
+  margin: 0;
+  padding: 0 48px 30px;
+  background: #f5f5f5;
+}
+
+
+
+textarea {
+  display: block;
+  border-radius: 8px;
+}
+
+
+
+
+
+#formAddButton {
+  width: 120px;
+  background-color: #8902FF;
+  color: #fff;
+  border-radius: 8px;
+  border: 0;
+  transition: background-color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out;
+}
+
+
+
+
+
+#notes {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 16px;
+}
+
+.note {
+  width: 400px;
+  height: 350px;
+  font-size: 13px;
+  background: #fff;
+  
+  padding: 20px 26px;
+  
+  box-shadow: 0 16px 18px rgba(0,0,0, 0.1);
+  position: relative;
+}
+
+.note-text1 {
+  height: 100%;
+  overflow-y: auto;
+}
+
+text
+{
+    font-size : 100px;
+    color : green;
+}
+
